@@ -14,10 +14,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    "Connect coc.nvim to clang language server
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    "Autocompletion
-    Plug 'Valloric/YouCompleteMe'
     "Install themes
     Plug 'morhetz/gruvbox'
     "IDE
